@@ -46,8 +46,11 @@ const Wrapper = styled.div`
 `;
 
 const LeftColumn = styled.div`
+  position: sticky;
+  top: 20px;
   flex-basis: 248px;
   padding-top: 14px;
+  align-self: flex-start;
 `;
 
 const MainColumn = styled.div`
